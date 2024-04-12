@@ -31,5 +31,5 @@ Example figure:
 
 
 
-We ran linear mixed effects models using the `fitlme` function in Matlab and exported it results as CSVs [result_tables/Model_output](result_tables/Model_output). Also is attached the Jupyter Notebook [LME_results](LME_results.ipynb)
+We ran linear mixed effects models using the `fitlme` function in Matlab and exported it results as CSVs [result_tables/Model_output](result_tables/Model_output) for each celltype (separate directories). Also is attached the Jupyter Notebook [LME_results](LME_results.ipynb)
 
