@@ -12,10 +12,10 @@ For these experiments, we recorded from the three Alphas ganglion cell types in 
 <img src="Images/ONAlpha_KO_labeled.jpg" width="300" height="225">
 
 
-- These are created directly from the hdf5 file located in [Data](Data).
-- There a three files `(NF1_WT, NF1_het, NF1_KO)` which correspond to the Wildtye, Heterozygous and Knockout mice, respectively. They have the following hierarchy: **genotype_string-> celltype -> cellname.**  
+- These are created directly from the `NF1.h5` file located in [Data_final](Data_final).
+- It has the following hierarchy: **animal_type (NF1_control, NF1_het, NF1_homo)-> celltype -> cellname.**  
 
-- On the Y axis we plotted `spikes_stim_mean` for the ON response (cyan) and `spikes_tail_mean` for the OFF response (gray) and then computed the mean (darker lines). The SEM (shaded areas) are also part of the HDF5 file `spikes_stim_sem` and `spikes_tail_sem` for the ON and OFF response, respectiviel. 
+- For each cell, on the Y axis we plotted `spikes_stim_mean` for the ON response (cyan) and `spikes_tail_mean` for the OFF response (gray) and then computed the mean (darker lines). The SEM (shaded areas) are also part of the HDF5 file `spikes_stim_sem` and `spikes_tail_sem` for the ON and OFF response, respectiviel. 
 
 ## Mean and t-tests
 **Example figure:**
