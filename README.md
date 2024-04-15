@@ -1,5 +1,5 @@
 # NF1 Ephys Data
-For these experiments, we recorded from the three Alphas ganglion cell types in loose-seal cell attached configuration while present light stimuli of different diamaters (30 to 1200 um). We measured:
+For these experiments, we recorded from the three Alphas ganglion cell types in loose-seal cell attached configuration while presenting light stimuli from darkness of different diamaters (30 to 1200 um). We measured:
 - Baseline firing rate before the light stimuli
 - Peak firing rates (Hz)
 - Peak Spot Size: the size of the light stimuli which elicited the most spikes. 
@@ -22,7 +22,7 @@ For these experiments, we recorded from the three Alphas ganglion cell types in 
 
 <img src="Images/Peak_FR_ONAlpha.png" width="350" height="225">
 
-In the [result_tables](result_tables) directory there are `.csv` files for every celltype which include the relevant genotype,sex, eye side,quadrant and cell_type information and it's responses. Attached is also the Jupyer Notebook [NF1_Analysis](NF1_Analysis.ipynb) to created plot the individual points, mean and run t-tests correcting for multiple comparisons.  
+In the [result_tables](result_tables), I have separated the two cohort analysis. In the [result_tables/First_cohort](result_tables/First_cohort) directory there are `.csv` files for every celltype which include the relevant genotype,sex, eye side,quadrant and cell_type information and it's responses. Attached is also the Jupyer Notebook [NF1_Analysis](NF1_Analysis.ipynb) used to create plot the individual points, mean and run t-tests correcting for multiple comparisons.  
 
 ## Linear Mixed effects models
 Example figure:
@@ -31,5 +31,5 @@ Example figure:
 
 
 
-We ran linear mixed effects models using the `fitlme` function in Matlab and exported it results as CSVs [result_tables/Model_output](result_tables/Model_output) for each celltype (separate directories). Also is attached the Jupyter Notebook [LME_results](LME_results.ipynb)
+We ran linear mixed effects models using the `fitlme` function in Matlab and exported it results as CSVs [result_tables/First_cohort](result_tables/First_cohort) for each celltype (separate directories). Also attached  isthe Jupyter Notebook [LME_results](LME_results.ipynb) I used to create the plots. 
 
